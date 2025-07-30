@@ -29,7 +29,7 @@ const Mainpage = () => {
         <h1 className='head'>FOOD RECIPE APP</h1>
         <div className='container'>
             <div className='searchBar'>
-                <input type='text' placeholder='Enter Dishe' onChange={handleInput}/>
+                <input type='text' placeholder='Enter Dish' onChange={handleInput}/>
                 <button onClick={myFun}>Search</button>
             </div>
             <h4 className='msg'>{msg}</h4>
