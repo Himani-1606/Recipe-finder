@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   /* ✅ Background image */
+  background-image: url('/image.png'); /* Place image in public folder */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 code {
@@ -32,7 +38,7 @@ code {
   color: white;
   border: none;
   font-size: 20px;
-  border-radius: 6px;
+  border-radius: 20px;
   cursor: pointer;
 }
 .meals{
