@@ -35,7 +35,7 @@ const Mainpage = () => {
      console.log(data);
   return (
     <>
-        <h1 className='head'>FOOD RECIPE APP</h1>
+        <h1 className='head'>Your Recipe Finder</h1>
         <div className='container'>
             <div className='searchBar'>
                 <input type='text' placeholder='Enter Dish' onChange={handleInput}/>
